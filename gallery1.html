@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <style>
+        /* CSS will go here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Image Gallery</h1>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="urban">Urban</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+    </header>
+    
+    <main class="gallery-container">
+        <!-- Gallery items will be inserted here by JavaScript -->
+    </main>
+    
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <div class="lightbox-content">
+            <img class="lightbox-img" src="" alt="">
+            <div class="image-info">
+                <h3 class="image-title"></h3>
+                <p class="image-category"></p>
+            </div>
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+    
+    <script>
+        // JavaScript will go here
+    </script>
+</body>
+</html>
