@@ -15,7 +15,7 @@ A modern, responsive image gallery with filtering and lightbox functionality.
 ## 🚀 How to Use
 
 1. Clone or download the project files
-2. Open `index.html` in your web browser
+2. Open `image.html` in your web browser
 3. Click on any image to view it in the lightbox
 4. Use the filter buttons to show only specific categories
 5. Navigate through images using arrow keys or on-screen buttons
